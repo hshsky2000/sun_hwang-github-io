@@ -76,9 +76,10 @@ input, select, textarea {
 
 	.row {
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap:wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		flex-direction: column;
 	}
 
 		.row > * {
@@ -2188,4 +2189,12 @@ input, select, textarea {
 				margin-left: 0.5em;
 			}
 
+		}
+
+		h2{
+			font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+			font-weight: 200;
+		}
+		p{
+			font-family:Verdana, Geneva, Tahoma, sans-serif
 		}
